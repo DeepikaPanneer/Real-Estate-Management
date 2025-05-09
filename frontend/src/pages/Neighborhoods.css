@@ -1,0 +1,70 @@
+.neighborhoods-page {
+    min-height: 100vh;
+    background-color: #f8fafc;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .neighborhoods-container {
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .neighborhoods-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+  }
+  
+  .neighborhoods-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .neighborhoods-form input {
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .neighborhoods-form button {
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .neighborhoods-form button:hover {
+    background-color: #2563eb;
+  }
+  
+  .neighborhoods-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .neighborhood-card {
+    background: white;
+    padding: 20px 25px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .neighborhood-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .neighborhood-card p {
+    margin: 5px 0;
+  }
+  

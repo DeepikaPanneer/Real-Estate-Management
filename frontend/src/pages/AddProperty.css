@@ -1,0 +1,58 @@
+.add-property-page {
+  background-color: #f8fafc;
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.add-property-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.add-property-container h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.add-property-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.add-property-form select,
+.add-property-form input,
+.add-property-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.add-property-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.add-property-form button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-property-form button:hover {
+  background-color: #0056b3;
+}
